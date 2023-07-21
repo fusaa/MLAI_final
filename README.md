@@ -5,13 +5,17 @@ This is the final project for Professional Certificate in Machine Learning & Art
 The chosen dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). The dataset comprehends lung X-ray images from children, and the goal is to train a classifier that is able to diagnose patients for pneumonia. 
 
 > Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
+
+*You can check the Jupyter notebook by clicking [here](https://github.com/fusaa/MLAI_final/blob/main/branch_4L%20-%20development.ipynb).*
+  
 ---
 # Data
 The dataset has high-resolution images, and it has been pre-cleaned and labelled by specialists. It comprehends 5.856 image files with a size of 1.15GB.  
 
 ![image](https://github.com/fusaa/MLAI_final/assets/66756007/4982298c-8eea-461a-a4e7-25004e0d9acf)
-
+  
 --
+
 # The Model
 
 This model was inspired by a LeNet-5 Network. It is a convolutional neural network (CNN) architecture developed by Yann LeCun in 1998 for handwritten digit recognition. It consists of seven layers, including two convolutional layers, two pooling layers, and two fully connected layers. The first convolutional layer extracts features using a 5x5 filter, followed by a pooling layer. The second convolutional layer extracts more complex features using a 5x5 filter, followed by another pooling layer. The extracted features are then flattened and fed into two fully connected layers, with the final layer producing the classification output. LeNet-5 played a significant role in popularizing CNNs and laid the foundation for modern deep-learning applications.
