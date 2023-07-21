@@ -51,7 +51,13 @@ The script executing the BoTorch was run several times, and results stored in a 
 After a sufficient number of good models had been obtained, the possibility of selecting a model to proceed with emerged.
 The model was subjected to testing across various metrics, such as Recall and F2Score. 
 Additionally, a confusion matrix was constructed both for validation and testing - so far unseen data - that had been previously separated.
-  
+
+# Results
+
+Best model settings:  
+![image](https://github.com/fusaa/MLAI_final/assets/66756007/e8128ee6-a0f4-4a85-bf15-6f11006d6911)
+
+Confusion Matrix:  
 ![image](https://github.com/fusaa/MLAI_final/assets/66756007/01322a52-ebc7-4553-8278-926454dee51a)
 
 In this kind of problem the type of error plays a role in the usefulness of the model, and how it could be applied in a real world task. So it is necessary to consider the two types of errors:
