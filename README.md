@@ -72,7 +72,8 @@ So, in this case, the proper course of action would be to minimize False Negativ
 In this context, Recall is an important metric, and it is defined as the ratio of the total number of correctly classified positive classes divided by the total number of positive classes.
 $$\text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
 
-![image](https://github.com/fusaa/MLAI_final/assets/66756007/7bcc22aa-8513-416e-a874-46651fe4d823)
+
+![image](https://github.com/fusaa/MLAI_final/assets/66756007/0273f59a-842a-4d6e-88d8-f76e550cd628)
 
 As we can see, for the Recall metric(629 / (629+13) ), we correctly identified almost 98% of patients that were sick as sick, leaving roughly 2% misdiagnosed. In this context, in a review cycle for this work, the Recall performance should be prioritized to achieve 100%, even though it might mean getting more errors type 1.  
 
